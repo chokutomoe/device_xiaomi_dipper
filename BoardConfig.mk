@@ -7,7 +7,9 @@
 # Inherit from sdm845-common
 -include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
+# Build
 BUILD_BROKEN_DUP_RULES := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 DEVICE_PATH := device/xiaomi/dipper
 
